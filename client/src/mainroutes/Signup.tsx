@@ -24,7 +24,7 @@ function Signup() {
         console.log(JSON.stringify({email, name, password}))
         
 
-        fetch("https://node-final-project2-client-wkjq.vercel.app/auth/signup",{
+        fetch("https://node-final-project3-server.vercel.app/auth/signup",{
             method:"POST",
             body: JSON.stringify({email, password, name}),
             headers: { "Content-Type":"application/json"}

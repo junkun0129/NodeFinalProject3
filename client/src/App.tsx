@@ -20,7 +20,7 @@ export interface ClientToServerEvents {
   encount:(encount:string)=>void;
   back:(backback:string)=>void;
 }
-const socket:Socket<ServerToClientEvents, ClientToServerEvents>= io("https://node-final-project2-client-wkjq.vercel.app")
+const socket:Socket<ServerToClientEvents, ClientToServerEvents>= io("https://node-final-project3-server.vercel.app")
 
 function App() {
   const [count, setCount] = useState(0)

@@ -18,7 +18,7 @@ function Login() {
         setIsSubmit(true);
         setError("");
         console.log({email, password}, "this is it")
-        fetch("https://node-final-project2-client-wkjq.vercel.app/auth/signin", {
+        fetch("https://node-final-project3-server.vercel.app/auth/signin", {
             method:"POST",
             body: JSON.stringify({email, password}),
             headers: {"Content-Type":"application/json"}

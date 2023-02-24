@@ -90,7 +90,7 @@ function Battle({socket}:socketType) {
             
             // if(nullOr1===2&&nullOr2===2&&nullOr3===2)setEnemy2(randomize(enemyArr));
             
-            fetch("https://node-final-project2-client-wkjq.vercel.app/enemy/create", {
+            fetch("https://node-final-project3-server.vercel.app/enemy/create", {
                 method:"GET",
                 headers: {"Content-Type":"application/json"} 
             }).then(async response=>{
