@@ -1,7 +1,7 @@
 module.exports = (http)=>{
     const soketIO = require("socket.io")(http, {
         cors:{
-            origin: "https://node-final-project2-client.vercel.app"
+            origin: "https://node-final-project3-client.vercel.app"
         }
     })
 
