@@ -1,0 +1,40 @@
+{ "columns":8,
+ "image":"..\/..\/\u30a6\u30c7\u30a3\u30bf2_32x32mapchip_20210215\/MapChip\/[A]Water2_pipo.png",
+ "imageheight":160,
+ "imagewidth":256,
+ "margin":0,
+ "name":"ocian",
+ "spacing":0,
+ "tilecount":40,
+ "tiledversion":"1.9.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.9",
+ "wangsets":[
+        {
+         "colors":[
+                {
+                 "color":"#ff0000",
+                 "name":"",
+                 "probability":1,
+                 "tile":-1
+                }],
+         "name":"Unnamed Set",
+         "tile":-1,
+         "type":"corner",
+         "wangtiles":[
+                {
+                 "tileid":3,
+                 "wangid":[0, 1, 0, 1, 0, 1, 0, 1]
+                }, 
+                {
+                 "tileid":27,
+                 "wangid":[0, 1, 0, 1, 0, 1, 0, 1]
+                }, 
+                {
+                 "tileid":35,
+                 "wangid":[0, 1, 0, 1, 0, 1, 0, 1]
+                }]
+        }]
+}

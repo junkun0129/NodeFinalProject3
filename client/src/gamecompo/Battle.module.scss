@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    .battleBox{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("img/battle1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 10%;
+        top: 0;
+        transform: translateX(-1600px);
+        z-index: 1;
+        .innnerBattleBox{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            .enemeyField{
+                position: absolute;
+                // background-color: red;
+                // border: 1px solid black;
+                width: 100vw;
+                height: 400px;
+                margin-top: 70px;
+                display: flex;
+                
+                justify-content: space-around;
+                .fieldEach{
+                    .enemyName{
+                        font-size: 30px;
+                    }
+                }
+            }
+    
+            .hp{
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+            }
+    
+            .option{
+        
+                
+                width: 100%;
+                height: 30%;
+                // background-color: red;
+                z-index: 2;
+                bottom: 18px;
+                display: flex;
+                justify-content: space-around;
+                position: absolute;
+                .shield{
+                    width: 30%;
+                    height: 80%;
+                    // background-color: burlywood;
+                    border: 10px solid rgba(55, 55, 255, 0.5);
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: rgba(55, 55, 255, 0.5);
+                    font-size: 50px;
+                }
+                
+                .item{
+                    width: 30%;
+                    height: 80%;
+                    // background-color: red;
+                    border: 10px solid rgb(246, 255, 0, 0.5);
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 50px;
+                    color:rgb(246, 255, 0, 0.5) ;
+                }
+            }
+        }
+    }
+
+    // .you{
+    //     position: absolute;
+    //     top: 0;
+    // }
+}
